@@ -1,0 +1,147 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    background-color:yellow;
+    width: 20%;
+    height: 100vh; 
+}
+
+#cont{
+    /* background-color: aqua;  */
+
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+    display: block;
+}
+
+a:hover{
+    background-color: black;
+    color: yellow; 
+}
+
+#menu{
+    list-style-type: none; 
+    margin: 0;
+    padding: 0;
+    background-color:yellow;
+    position: absolute; 
+
+    display: none; 
+
+    top: 0;
+    left: 100%;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    background-color:red;
+    width: 20%;
+    height: 100vh; 
+    border: 2px solid black;
+}
+
+#cont{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+    display: block;
+}
+
+a:hover{
+    background-color: black;
+    color: yellow; 
+}
+#menu{
+    list-style-type: none; 
+    margin: 0;
+    padding: 0;
+    background-color:aqua;
+    position: absolute; 
+
+    display: none; 
+
+    top: 0;
+    left: 100%;
+}
+
+
+
+#drop:hover #menu{
+    display: block; 
+}
+
+
+#drop{
+    position: relative; 
+}
+
+#breakfast-drop{
+    background-color: aqua;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+}
+
+#breakfast-drop{
+    position: relative;
+}
+
+#breakfast-menu{
+    list-style-type: none; 
+    margin: 0;
+    padding: 0;
+    background-color: rgb(132, 0, 255);
+    position: absolute; 
+
+    display: none; 
+
+    top: 0;
+    left: 100%;
+}
+#breakfast-drop:hover #breakfast-menu{
+    display: block;
+}
+#lunch-menu{
+    list-style-type: none; 
+    margin: 0;
+    padding: 0;
+    background-color: rgb(132, 0, 255);
+    position: absolute; 
+    display: none; 
+    top: 0;
+    left: 100%;
+}
+#lunch-drop{
+    background-color: aqua;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+}
+
+#lunch-drop{
+    position: relative;
+}
+#lunch-drop:hover #lunch-menu{
+    display: block;
+}

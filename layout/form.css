@@ -1,0 +1,23 @@
+body{
+    font-family: 'Noto Sans KR', sans-serif;
+
+}
+.fa-user{
+position: absolute;
+top: 10%;
+left: 5%;
+}
+#fname{
+    padding-left: 1%;
+}
+#fname-cont{
+    position: relative;
+}
+.fa-envelope{
+    position: absolute;
+top: 10%;
+left: 3%;
+}
+#em-cont{
+    position: relative;
+}

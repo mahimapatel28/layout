@@ -1,0 +1,43 @@
+/* img{
+    margin-top: 20px;
+    position: relative; 
+    position: absolute;
+    position: sticky;
+    top: 0px;
+    left: 0px;
+} */
+body{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    background-color: rgb(9, 44, 44);
+}
+#cont{
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    color:rgb(22, 16, 3);
+    padding: 20px;
+    display: block;
+}
+a:hover{
+    background-color: aqua;
+    color: brown;
+}
+#menu{
+    list-style-type:none;
+    padding: 0px;
+    position: absolute;
+    /* position: relative; */
+    /* top: 164px; */
+    display: none;
+}
+#drop:hover #menu{
+    display: block;#
+
+}
